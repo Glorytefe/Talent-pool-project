@@ -30,6 +30,9 @@ line-height: 36px;
 color: #084482;
 }
 
+.form-box {
+    padding-left: 15px;
+}
 
 label {
 font-family: Poppins;
@@ -143,10 +146,49 @@ color: #FFFFFF;
 
 .acct {
     font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #495057;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #495057;
+}
+
+@media only screen and (max-width: 600px) {
+    .header h4 {
+        color: black!important;
+        font-weight: 600;
+    }
+    .header p {
+        color: black!important;
+        font-weight: 500;
+    }
+    .form-group label {
+        color: black!important;
+    }
+    .leftside {
+        background-size: cover;
+       height: 964px;    
+    }
+    .rightside {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+        top: -4rem!important; 
+    }
+    .form-row label {
+        font-weight: 500;
+        color: black!important;
+    }
+    
+    .terms {
+        text-align: left!important;
+        font-size: 18px!important;
+        color: white;
+    }
+    .overlay {
+        background: rgba(black, black, black, 0.9)!important;
+    }
+    .acct {
+        color: white!important;
+    }
 }
