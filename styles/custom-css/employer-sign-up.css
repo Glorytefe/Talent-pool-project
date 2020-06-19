@@ -4,23 +4,17 @@ position: absolute;
 width: 630px;
 height: 964px;
 left: 0px;
-top: 0px;
-
-    
+top: 0px; 
 } 
 
 .rightside {
 width: 85%;
 display: flex;
 position: absolute;
-height: 964px;
 left: 0px;
 top: 0px;
 }
  .header h4{
-width: 277px;
-height: 36px;
-left: 726px;
 margin-top: 90px!important;
 font-family: Poppins;
 font-style: normal;
@@ -40,7 +34,6 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
 color: #1F2430;
 
 }
@@ -167,14 +160,17 @@ color: #FFFFFF;
         color: black!important;
     }
     .leftside {
-        background-size: cover;
-       height: 964px;    
+        display: none!important;
     }
     .rightside {
         padding-left: 15px!important;
         padding-right: 15px!important;
-        top: -4rem!important; 
+        background: url(/img/employersignup.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%!important;
     }
+   
     .form-row label {
         font-weight: 500;
         color: black!important;
@@ -185,10 +181,8 @@ color: #FFFFFF;
         font-size: 18px!important;
         color: white;
     }
-    .overlay {
-        background: rgba(black, black, black, 0.9)!important;
-    }
     .acct {
         color: white!important;
+        padding-bottom: 30px!important;
     }
 }

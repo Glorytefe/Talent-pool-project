@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Employer sign up</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/bootstrap-css/bootstrap.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -13,9 +13,8 @@
 </head>
 
 <body>
-    <section class="sign up">
+    <section class="">
         <div class="container-fluid">
-
             <div class="row">
                 <div class="col-md-6 overlay">
                     <div class="leftside">
@@ -23,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="rightside d-flex">
+                    <div class="rightside">
                         <div class="form-container">
                             <div class="form-box">
                                 <div class="header">
@@ -32,12 +31,15 @@
                                         pool of talent.</p>
                                 </div>
                                 <form>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Organization Name</label>
-                                        <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
-                                            aria-describedby="" placeholder="Enter organization">
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                            <label for="exampleInputEmail1">Organization Name</label>
+                                            <input type="text" class="form-control form-control-lg"
+                                                id="exampleInputEmail1" aria-describedby=""
+                                                placeholder="Enter organization">
+                                        </div>
                                     </div>
-                                    <div class="form-row">
+                                    <div class="row">
                                         <div class="col-md-6 form-group">
                                             <label for="exampleInputEmail1">Email address</label>
                                             <input type="email" class="form-control form-control-lg"
@@ -50,7 +52,6 @@
                                                 <option class="default1">--select--</option>
                                                 <option>Choose</option>
                                                 <option>Choose</option>
-
                                             </select>
                                         </div>
                                     </div>
@@ -105,18 +106,19 @@
                                     </div>
                                     <div class="text-center mt-5 acct">Have an account? <a
                                             href="./employer-sign-in.html">Log in</a></div>
+                                </form>
                             </div>
                         </div>
 
                     </div>
-                    </form>
+
                 </div>
             </div>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap-js/jquery.js"></script>
+    <script src="../js/bootstrap-js/popper.js"></script>
+    <script src="../js/bootstrap-js/bootstrap.js"></script>
 </body>
 
 </html>

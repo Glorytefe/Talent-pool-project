@@ -16,18 +16,13 @@
 }
     
     .rightside {
-    /* width: 85%; */
+    width: 85%;
     display: flex;
     position: absolute;
-    
-    /* height: 964px; */
     left: 0px;
     top: 0px;
     }
      .header h4{
-    width: 277px;
-    height: 36px;
-    /* left: 726px; */
     margin-top: 90px!important;
     font-family: Poppins;
     font-style: normal;
@@ -44,7 +39,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
-    /* identical to box height */
     color: #1F2430;
     
     }
@@ -111,7 +105,6 @@ span {
     width: 264px;
     height: 63px;
     left: 726px;
-    /* top: 795px; */
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -161,9 +154,7 @@ span {
             color: #fff!important;
         }
         .leftside {
-            height: auto;
-            position: fixed;
-            
+           display: none!important;
         }
         .rightside {
             padding-left: 15px!important;
@@ -171,6 +162,7 @@ span {
             background: url(/img/signin.jpg);
             background-size: cover;
             background-position: center;
+            width: 100%!important;
         }
         .form-row label {
             color: #fff!important;
@@ -180,16 +172,15 @@ span {
             text-align: left!important;
             font-size: 18px!important;
         }
-        
         .wor {
             color: #fff!important;
         }
-        .overlay {
-            background: rgba(black, black, black, 0.9)!important;
-        }
+
         .acct {
             color: white!important;
+            padding-bottom: 30px!important;
         }
+
         }
 
             
