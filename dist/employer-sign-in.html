@@ -22,7 +22,7 @@
         <div class="container-fluid custom-container">
             <nav class="navbar navbar-expand-lg navbar-light py-4">
                 <a class="navbar-brand" href="index.html">
-                    <img src="./img/logo.svg" alt="talent pool logo">
+                    <img src="./img/talentpool header logo.svg" alt="talent pool logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,25 +73,33 @@
                                 <h4>Welcome Back</h4>
                                 <p class="text-muted">Get the right talent for that job now.</p>
                             </div>
-                            <form>
+                            <form class="needs-validation" novalidate>
                                 <div class="row">
-                                    <div class="col-md-12 form-group">
+                                    <div class="col-md-12 my-3 form-group">
                                         <label for="email" class="form-label">Email address</label>
                                         <input type="email" class="form-control form-control-lg" id="email"
                                             aria-describedby="emailHelp" placeholder="Enter email" required>
+                                        <div class="invalid-feedback">
+                                            Enter a valid email
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <label>Password</label>
-                                        <input type="text" placeholder="at least 8 characters"
-                                            class="form-control form-control-lg">
+                                    <div class="col-md-12 my-3 form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" placeholder="at least 8 characters"
+                                            class="form-control form-control-lg" inputmode="alpha-numeric" minlength="8"
+                                            maxlength="12" size="16" id="password" required>
+                                        <div class="invalid-feedback">
+                                            Enter your password. It must contain atleast 8 characters.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="custom-control custom-checkbox col ml-3 mt-3">
                                         <input type="checkbox" class="custom-control-input" id="rememberPassword">
-                                        <label class="custom-control-label" for="rememberPassword">Remember
+                                        <label class="custom-control-label" for="rememberPassword"
+                                            style="color: black;">Remember
                                             password</label>
                                     </div>
                                     <div class="form-check col mt-3 text-right">
@@ -143,7 +151,7 @@
             <div class="row top justify-content-between">
                 <div class="col-md-3">
                     <div class="py-3">
-                        <img src="../../img/talentpool footer logo.svg" alt="talent pool logo">
+                        <img src="./img/talentpool footer logo.svg" alt="talent pool logo">
                     </div>
                     <p class="py-2">
                         We are known for
@@ -199,6 +207,7 @@
         </div>
     </footer>
     <!-- footer ends -->
+    <script src="./js/custom-js/main.js"></script>
     <script src="./js/bootstrap-js/jquery.js"></script>
     <script src="./js/bootstrap-js/popper.js"></script>
     <script src="./js/bootstrap-js/bootstrap.js"></script>
